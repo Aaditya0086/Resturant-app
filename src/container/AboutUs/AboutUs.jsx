@@ -25,7 +25,7 @@ const AboutUs = () => (
 
       <div className='app__aboutus-content_history'>
         <h1 className='headtext__cormorant'>
-          Our History
+          Our Vision
         </h1>
         <img src={images.spoon} alt="spoon img" className='spoon__img' />
         <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perferendis ex delectus amet ipsa aperiam optio? Ad, tempore.</p>

@@ -1,14 +1,15 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
-import { FooterOverlay, Newsletter } from '../../components';
+import { FooterOverlay } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
+import Preorder from '../../components/Footer/Preorder';
 
 const Footer = () => (
   <div className='app__footer section__padding '>
     <FooterOverlay />
-    <Newsletter />
+    <Preorder />
 
     <div className='app__footer-links'>
       <div className='app__footer-links_contact'>
@@ -25,9 +26,9 @@ const Footer = () => (
         <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis atque explicabo magnam!</p>
         <img src={images.spoon} alt="spoon_img" className='spoon__img' style={{marginTop: 15}}/>
         <div className='app__footer-links_icons'>
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href='https://www.facebook.com' target='_blank' rel='noopener noreferrer'><FiFacebook /></a>
+          <a href='https://www.twitter.com' target='_blank' rel='noopener noreferrer'><FiTwitter /></a>
+          <a href='https://www.instagram.com/startersandmore_bynv?igsh=MW41cDFsNmd5MmxhNg==' target='_blank' rel='noopener noreferrer'><FiInstagram /></a>
         </div>
       </div>
 
@@ -42,7 +43,7 @@ const Footer = () => (
       </div>
     </div>
     <div className='footer__copyright'>
-      <p className='p__opensans'>2023 Gericht. All Rights Reserved.</p>
+      <p className='p__opensans'>2025 StartersAndMoreByNV. All Rights Reserved.</p>
     </div>
   </div>
 );
