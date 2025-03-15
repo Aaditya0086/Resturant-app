@@ -16,6 +16,7 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
+    {/* vndus */}
     <img src="" alt="" />
   </div>
 );
